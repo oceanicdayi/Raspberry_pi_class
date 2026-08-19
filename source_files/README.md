@@ -15,13 +15,13 @@
 | `地震儀小專題esp32.pdf` | `docs/2023_06_geophysics_esp32_student_projects.md` | 原檔已索引，尚未實體上傳 |
 | `地震儀模擬實作練習題.pdf` | `docs/2024_raspberry_pi_student_projects.md` | 原檔已索引，尚未實體上傳 |
 | `地震學期末報告esp32.pdf` | `docs/2023_06_geophysics_esp32_student_projects.md` | 原檔已索引，尚未實體上傳 |
-| [`第二組Raspberry pico 自製地震儀成果報告.pdf`](./第二組Raspberry%20pico%20自製地震儀成果報告.pdf) | `docs/2023_raspberry_pi_student_projects.md` | **原始 PDF 已上傳** |
+| `第二組Raspberry pico 自製地震儀成果報告.pdf` | `docs/2023_raspberry_pi_student_projects.md` | 原檔已索引，尚未實體上傳 |
 
 完整檔案大小與 SHA-256 請見 `source_manifest.csv`。
 
 ### 二進位附件說明
 
-本次 GitHub 連接器可以直接建立 Markdown / CSV 等文字檔，也能處理較小的 Git blob；但其介面沒有「以本機檔案路徑直接上傳大型二進位檔」的動作。因此目前已將所有 Markdown、來源索引與 SHA-256 manifest 存入 repository，並成功實體上傳最小的 PDF；其餘 9 個大型 PDF / PPTX（約 1.9–11.9 MB/檔）仍以 manifest 精確索引，避免誤標為已上傳。
+本次 GitHub 連接器可以直接建立 Markdown / CSV 等文字檔，但沒有「以本機檔案路徑直接上傳大型二進位檔」的動作。曾以 Git blob 方式測試最小 PDF，但傳輸後檔案大小與 SHA-256 無法保持一致，因此已將測試檔刪除，不把損壞檔留在 repository。現在 10 個 PDF / PPTX 原始附件皆以檔名、大小與 SHA-256 精確索引，狀態統一標記為 `indexed_not_uploaded`。
 
 ## 外部來源
 
